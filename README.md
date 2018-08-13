@@ -8,10 +8,11 @@ So whenever a logo needs to be updated, it should be enough to change it only in
 
 **Example link:**
 
+![EU Flag](https://fablabbcn.github.io/assets/images/eu_flag.png)
+
 https://fablabbcn.github.io/assets/images/eu_flag.png
 
 https://fablabbcn.github.io/assets/images/iaac.png
 
 https://fablabbcn.github.io/assets/images/smartcitizen_logo.svg
-[logo](https://fablabbcn.github.io/assets/images/smartcitizen_logo.svg)
 
