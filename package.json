@@ -1,0 +1,19 @@
+{
+  "name": "sc-assets",
+  "version": "1.0.0",
+  "description": "All the assets of SmartCitizen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fablabbcn/assets.git"
+  },
+  "author": "SmartCitizen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fablabbcn/assets/issues"
+  },
+  "homepage": "https://github.com/fablabbcn/assets#readme"
+}

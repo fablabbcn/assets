@@ -1,0 +1,207 @@
+
+// Backgrounds
+.bg-black{
+  background: var(--black);
+}
+.bg-blue{
+  background: var(--blue);
+  color: white;
+}
+.bg-blue-stripe{
+  background-image: url('https://github.com/fablabbcn/assets/raw/master/images/02_kit/stripes-blue-bg.png');
+}
+.bg-grey{
+  background: var(--grey_bg);
+}
+.bg-purple{
+  background: var(--purple);
+  color: white;
+}
+.bg-purple-dark{
+  background: var(--purple_dark);
+  color: white;
+}
+.bg-purple-light{
+  background: var(--purple_light);
+}
+.bg-red{
+  background: var(--red);
+  color: white;
+}
+.bg-yellow{
+  background: var(--yellow);
+  color: white;
+}
+
+.grey-waves{
+  background: url("https://fablabbcn.github.io/assets/images/sck_bg.png") ;
+  background-color: #e3e3e3;
+}
+
+
+// Borders
+.border-black{
+  border: $border_thickness solid var(--black);
+}
+.border-purple{
+  border: $border_thickness solid var(--purple);
+}
+
+
+// Buttons
+.btn{
+  text-transform: uppercase;
+  border-radius:30px;
+  font-size:15px;
+  font-weight: 600;
+  padding:12px 29px;
+  margin-bottom: 20px;
+}
+
+.btn-black{
+  background-color: var(--black);
+  color: var(--white);
+}
+.btn-black:hover{
+  background-color: var(--black);
+  color: var(--grey);
+}
+.btn-blue{
+  background-color: var(--blue);
+  color: var(--white);
+}
+.btn-blue:hover{
+  background-color: var(--blue);
+  color: var(--grey);
+}
+.btn-blue-outline{
+  border: $border_thickness solid var(--blue);
+  color: var(--blue);
+}
+.btn-blue-outline:hover{
+  background-color: var(--blue);
+  color: var(--white);
+}
+.btn-black-outline{
+  border: $border_thickness solid var(--black);
+  color: var(--black);
+}
+.btn-black-outline:hover{
+  background-color: var(--black);
+  color: var(--white);
+}
+.btn-purple{
+  background-color: var(--purple);
+  color: var(--white);
+}
+.btn-purple:hover{
+  background-color: var(--purple_dark);
+  color: var(--grey);
+}
+.btn-purple-outline{
+  border: $border_thickness solid var(--purple);
+  color: var(--purple);
+}
+.btn-purple-outline:hover{
+  background-color: var(--purple);
+  color: var(--white);
+}
+.btn-yellow{
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.btn-yellow:hover{
+  background-color: var(--yellow_light);
+  color: var(--black);
+}
+.btn-yellow-outline{
+  border: $border_thickness solid var(--yellow);
+  color: var(--yellow);
+}
+.btn-yellow-outline:hover{
+  border: $border_thickness solid var(--yellow);
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.btn-red{
+  background-color: var(--red);
+  color: var(--white);
+}
+.btn-red:hover{
+  background-color: var(--red);
+  color: var(--black);
+}
+
+.btn-red-outline{
+  border: $border_thickness solid var(--red);
+  color: var(--red);
+}
+.btn-red-outline:hover{
+  background-color: var(--red);
+  color: var(--white);
+}
+
+// Shadows
+
+.shadow-blue{
+  box-shadow: 10px 10px 0px (-$border_thickness) var(--blue),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-grey{
+  box-shadow: 10px 10px 0px (-$border_thickness) var(--grey),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-yellow{
+  box-shadow: 10px 10px 0px (-$border_thickness) var(--yellow),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-purple{
+  box-shadow: 10px 10px 0px (-$border_thickness) var(--purple),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-red{
+  box-shadow: 10px 10px 0px (-$border_thickness) var(--red),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-white{
+  box-shadow: 10px 10px 0px (-$border_thickness) var(--white),
+    10px 10px 0px 0px var(--black);
+}
+.shadow-on-card{
+  position:absolute;
+  top: -9%;
+  left: 12%;
+}
+
+// Cards
+.sc-card p{
+  min-height: 110px;
+}
+.sc-talkbox{
+  /* Are these yellow/orange colors used again? If so add them to the variables */
+  background-color: #F7F2DA;
+  border: $border_thickness solid #EABE3A;
+}
+.sc-rotate45{
+  transition: 0.25s;
+  /*browser specific versions*/
+  -moz-transition: 0.25s;
+  -ms-transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  transform: rotate(45deg);
+}
+
+// Text colors
+.text-yellow{
+  color: var(--yellow);
+}
+.text-blue{
+  color: var(--blue);
+}
+.text-purple{
+  color: var(--purple);
+}
+.text-red{
+  color: var(--red);
+}
